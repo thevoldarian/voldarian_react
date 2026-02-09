@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "حول",
+    "projects": "المشاريع",
+    "contact": "اتصل"
+  },
+  "theme": {
+    "light": "الوضع الفاتح",
+    "dark": "الوضع الداكن",
+    "toggle": "تبديل السمة"
+  },
+  "language": {
+    "select": "اختر اللغة",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "actions": {
+    "close": "إغلاق",
+    "open": "فتح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال"
+  }
+}

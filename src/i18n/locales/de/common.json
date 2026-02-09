@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "theme": {
+    "light": "Heller Modus",
+    "dark": "Dunkler Modus",
+    "toggle": "Thema wechseln"
+  },
+  "language": {
+    "select": "Sprache auswählen",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "actions": {
+    "close": "Schließen",
+    "open": "Öffnen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "submit": "Absenden"
+  }
+}

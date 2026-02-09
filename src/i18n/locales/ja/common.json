@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "about": "について",
+    "projects": "プロジェクト",
+    "contact": "お問い合わせ"
+  },
+  "theme": {
+    "light": "ライトモード",
+    "dark": "ダークモード",
+    "toggle": "テーマを切り替え"
+  },
+  "language": {
+    "select": "言語を選択",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "ar": "العربية"
+  },
+  "actions": {
+    "close": "閉じる",
+    "open": "開く",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "submit": "送信"
+  }
+}

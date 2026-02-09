@@ -10,8 +10,13 @@ Personal portfolio website built with React and TypeScript, deployed on AWS.
 ## Features
 
 - ⚛️ React 19 with TypeScript
-- 🎨 Modern CSS styling
-- ✅ Vitest for testing
+- 🎨 AWS Cloudscape Design System
+- 🌐 Internationalization (i18n) with 5 languages (EN, ES, DE, JA, AR)
+- 🌓 Dark/Light theme support
+- 🗂️ Redux Toolkit for state management
+- 🔄 Redux Persist for state persistence
+- 🧭 React Router for navigation
+- ✅ Vitest for testing with high coverage
 - 🔍 ESLint + Prettier for code quality
 - 🚀 Deployed via AWS CDK to CloudFront + S3
 
@@ -31,10 +36,10 @@ npm install
 ### Development
 
 ```bash
-npm start
+npm run dev
 ```
 
-Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
+Runs the app in development mode at [http://localhost:5173](http://localhost:5173).
 
 ### Testing
 
@@ -59,7 +64,13 @@ npm run format:check  # Check formatting
 npm run build
 ```
 
-Builds the app for production to the `build` folder.
+Builds the app for production to the `dist` folder.
+
+```bash
+npm run preview
+```
+
+Preview the production build locally.
 
 ## Deployment
 
@@ -69,9 +80,14 @@ This site is deployed using [AWS CDK infrastructure](https://github.com/thevolda
 
 - **React 19** - UI library
 - **TypeScript** - Type safety
+- **AWS Cloudscape Design System** - UI components
+- **Redux Toolkit** - State management
+- **Redux Persist** - State persistence
+- **React Router** - Client-side routing
+- **React i18next** - Internationalization
 - **Vitest** - Testing framework
 - **ESLint + Prettier** - Code quality
-- **React Scripts** - Build tooling
+- **Vite** - Build tooling
 
 ## License
 
