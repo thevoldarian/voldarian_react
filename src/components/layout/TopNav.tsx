@@ -1,23 +1,29 @@
-import { useTranslation } from 'react-i18next';
 import TopNavigation from '@cloudscape-design/components/top-navigation';
+import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { setTheme, setLanguage } from '../../store/slices/preferencesSlice';
-import type { Language } from '../../store/slices/preferencesSlice';
+import { SUPPORTED_LANGUAGES, type Language } from '../../constants/languages';
 
 export default function TopNav() {
   const { t, i18n } = useTranslation('common');
   const dispatch = useAppDispatch();
   const { theme, language } = useAppSelector(state => state.preferences);
 
+  useEffect(() => {
+    document.body.classList.toggle('awsui-dark-mode', theme === 'dark');
+  }, [theme]);
+
   const handleThemeChange = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     dispatch(setTheme(newTheme));
-    document.body.classList.toggle('awsui-dark-mode', newTheme === 'dark');
   };
 
-  const handleLanguageChange = (lang: Language) => {
-    dispatch(setLanguage(lang));
-    i18n.changeLanguage(lang);
+  const handleLanguageChange = (lang: string) => {
+    if (SUPPORTED_LANGUAGES.includes(lang as Language)) {
+      dispatch(setLanguage(lang as Language));
+      i18n.changeLanguage(lang);
+    }
   };
 
   return (
@@ -39,7 +45,7 @@ export default function TopNav() {
               { id: 'ja', text: t('language.ja') },
               { id: 'ar', text: t('language.ar') },
             ],
-            onItemClick: ({ detail }) => handleLanguageChange(detail.id as Language),
+            onItemClick: ({ detail }) => handleLanguageChange(detail.id),
           },
           {
             type: 'button',

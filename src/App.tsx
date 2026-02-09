@@ -20,6 +20,7 @@ function App() {
           <Route path='/about' element={<Box variant='div'>About - Coming Soon</Box>} />
           <Route path='/projects' element={<Box variant='div'>Projects - Coming Soon</Box>} />
           <Route path='/contact' element={<Box variant='div'>Contact - Coming Soon</Box>} />
+          <Route path='*' element={<Box variant='div'>404 - Page Not Found</Box>} />
         </Routes>
       </Layout>
     </BrowserRouter>

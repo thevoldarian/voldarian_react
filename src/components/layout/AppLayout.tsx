@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useLocation } from 'react-router-dom';
 import AppLayout from '@cloudscape-design/components/app-layout';
@@ -18,6 +18,16 @@ export default function Layout({ children }: LayoutProps) {
   const location = useLocation();
   const { sidebarCollapsed } = useAppSelector(state => state.preferences);
 
+  const navigationItems = useMemo(
+    () => [
+      { type: 'link' as const, text: t('navigation.home'), href: '/' },
+      { type: 'link' as const, text: t('navigation.about'), href: '/about' },
+      { type: 'link' as const, text: t('navigation.projects'), href: '/projects' },
+      { type: 'link' as const, text: t('navigation.contact'), href: '/contact' },
+    ],
+    [t],
+  );
+
   return (
     <>
       <TopNav />
@@ -30,16 +40,7 @@ export default function Layout({ children }: LayoutProps) {
               event.preventDefault();
               navigate(event.detail.href);
             }}
-            items={[
-              { type: 'link', text: t('navigation.home'), href: '/' },
-              { type: 'link', text: t('navigation.about'), href: '/about' },
-              {
-                type: 'link',
-                text: t('navigation.projects'),
-                href: '/projects',
-              },
-              { type: 'link', text: t('navigation.contact'), href: '/contact' },
-            ]}
+            items={navigationItems}
           />
         }
         navigationOpen={!sidebarCollapsed}

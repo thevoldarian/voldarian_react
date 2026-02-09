@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import type { Language } from '../../constants/languages';
 
 export type Theme = 'light' | 'dark';
-export type Language = 'en' | 'es' | 'de' | 'ja' | 'ar';
 
 interface PreferencesState {
   theme: Theme;
