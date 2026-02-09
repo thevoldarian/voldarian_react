@@ -1,4 +1,25 @@
 {
-  "title": "工事中",
-  "subtitle": "このサイトは現在構築中です。近日中にまたお越しください！"
+  "hero": {
+    "contactMe": "お問い合わせ",
+    "intro": "最新技術を使用したスケーラブルでアクセシブルなWebアプリケーションの構築を専門とする経験豊富なソフトウェアエンジニア。優れたユーザーエクスペリエンスの創造と、クリーンで保守可能なコードの記述に情熱を注いでいます。",
+    "name": "レイモンド・ボーシャン",
+    "title": "フロントエンドエンジニアII | Amazon 8年 | React • TypeScript • Node.js",
+    "viewProjects": "プロジェクトを見る"
+  },
+  "links": {
+    "github": "GitHubプロフィール",
+    "githubAriaLabel": "GitHubプロフィール (新しいタブで開きます)",
+    "linkedin": "LinkedInプロフィール",
+    "linkedinAriaLabel": "LinkedInプロフィール (新しいタブで開きます)",
+    "title": "つながる"
+  },
+  "techStack": {
+    "backend": "バックエンド",
+    "backendList": "Node.js, Ruby on Rails, Express",
+    "cloud": "クラウド & DevOps",
+    "cloudList": "AWS (S3, CloudFront, Lambda, CDK), CI/CD, GitHub Actions",
+    "frontend": "フロントエンド",
+    "frontendList": "React, TypeScript, Redux, Cloudscape Design System, HTML5, CSS3",
+    "title": "技術スタック"
+  }
 }

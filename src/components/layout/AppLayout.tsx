@@ -33,6 +33,8 @@ export default function Layout({ children }: LayoutProps) {
       <TopNav />
       <AppLayout
         headerSelector='#top-nav'
+        navigationWidth={200}
+        stickyNotifications
         navigation={
           <SideNavigation
             activeHref={location.pathname}

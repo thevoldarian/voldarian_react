@@ -1,4 +1,25 @@
 {
-  "title": "Under Construction",
-  "subtitle": "This site is currently being built. Check back soon!"
+  "hero": {
+    "contactMe": "Contact Me",
+    "intro": "Experienced software engineer specializing in building scalable, accessible web applications with modern technologies. Passionate about creating exceptional user experiences and writing clean, maintainable code.",
+    "name": "Raymond Beauchamp",
+    "title": "Front-End Engineer II | 8 Years at Amazon | React • TypeScript • Node.js",
+    "viewProjects": "View Projects"
+  },
+  "links": {
+    "github": "GitHub Profile",
+    "githubAriaLabel": "GitHub Profile (opens in new tab)",
+    "linkedin": "LinkedIn Profile",
+    "linkedinAriaLabel": "LinkedIn Profile (opens in new tab)",
+    "title": "Connect"
+  },
+  "techStack": {
+    "backend": "Backend",
+    "backendList": "Node.js, Ruby on Rails, Express",
+    "cloud": "Cloud & DevOps",
+    "cloudList": "AWS (S3, CloudFront, Lambda, CDK), CI/CD, GitHub Actions",
+    "frontend": "Frontend",
+    "frontendList": "React, TypeScript, Redux, Cloudscape Design System, HTML5, CSS3",
+    "title": "Tech Stack"
+  }
 }

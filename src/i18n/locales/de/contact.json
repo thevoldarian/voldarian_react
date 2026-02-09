@@ -1,0 +1,17 @@
+{
+  "title": "Kontaktiere Mich",
+  "intro": "Ich bin immer daran interessiert, von neuen Möglichkeiten, Kooperationen oder einfach nur von anderen Entwicklern zu hören. Zögern Sie nicht, mich zu kontaktieren!",
+  "email": {
+    "title": "E-Mail"
+  },
+  "social": {
+    "title": "Soziale Medien",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "availability": {
+    "title": "Verfügbarkeit",
+    "status": "Offen für Möglichkeiten"
+  },
+  "formComingSoon": "Kontaktformular kommt bald! In der Zwischenzeit können Sie mich gerne per E-Mail oder über soziale Medien kontaktieren."
+}

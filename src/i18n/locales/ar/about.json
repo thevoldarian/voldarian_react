@@ -1,0 +1,39 @@
+{
+  "title": "عني",
+  "summary": "مهندس واجهة أمامية II مع 8 سنوات من الخبرة في أمازون، متخصص في بناء تطبيقات ويب قابلة للتطوير ويمكن الوصول إليها. تقدمت من تطوير أدوات الماكرو إلى Ruby on Rails، وأخيراً إلى تطبيقات React/TypeScript الحديثة. شغوف بإنشاء تجارب مستخدم استثنائية، وكتابة كود نظيف وقابل للصيانة، وتوجيه أعضاء الفريق.",
+  "skills": {
+    "title": "المهارات التقنية",
+    "frontend": {
+      "title": "الواجهة الأمامية",
+      "list": "React 19, TypeScript, Redux, Redux-Saga, Cloudscape Design System, HTML5, CSS3, JavaScript (ES6+)"
+    },
+    "backend": {
+      "title": "الواجهة الخلفية",
+      "list": "Node.js, Ruby on Rails, Express"
+    },
+    "cloud": {
+      "title": "السحابة و DevOps",
+      "list": "AWS (S3, CloudFront, Lambda, CDK), CI/CD, GitHub Actions"
+    },
+    "tools": {
+      "title": "الأدوات",
+      "list": "Git, Webpack, Vite, Jest, Vitest, ESLint, Prettier"
+    },
+    "i18n": {
+      "title": "التدويل",
+      "list": "i18next, react-i18next (14 لغة مدعومة)"
+    },
+    "methodologies": {
+      "title": "المنهجيات",
+      "list": "Agile, TDD, مراجعة الكود, إمكانية الوصول (WCAG)"
+    }
+  },
+  "experience": {
+    "title": "الخبرة",
+    "amazon": {
+      "title": "أمازون",
+      "duration": "8 سنوات",
+      "description": "تقدمت من تطوير أدوات الماكرو إلى Ruby on Rails، وأخيراً إلى مهندس واجهة أمامية II يعمل مع React و TypeScript. بنيت وصيانة تطبيقات واسعة النطاق تخدم الملايين من المستخدمين، مع التركيز على التدويل وإمكانية الوصول والأداء."
+    }
+  }
+}

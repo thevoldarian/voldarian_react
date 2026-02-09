@@ -1,4 +1,25 @@
 {
-  "title": "قيد الإنشاء",
-  "subtitle": "هذا الموقع قيد الإنشاء حاليًا. تحقق مرة أخرى قريبًا!"
+  "hero": {
+    "contactMe": "اتصل بي",
+    "intro": "مهندس برمجيات ذو خبرة متخصص في بناء تطبيقات ويب قابلة للتطوير ويمكن الوصول إليها باستخدام التقنيات الحديثة. شغوف بإنشاء تجارب مستخدم استثنائية وكتابة كود نظيف وقابل للصيانة.",
+    "name": "ريمون بوشامب",
+    "title": "مهندس واجهة أمامية II | 8 سنوات في أمازون | React • TypeScript • Node.js",
+    "viewProjects": "عرض المشاريع"
+  },
+  "links": {
+    "github": "ملف GitHub الشخصي",
+    "githubAriaLabel": "ملف GitHub الشخصي (يفتح في علامة تبويب جديدة)",
+    "linkedin": "ملف LinkedIn الشخصي",
+    "linkedinAriaLabel": "ملف LinkedIn الشخصي (يفتح في علامة تبويب جديدة)",
+    "title": "تواصل"
+  },
+  "techStack": {
+    "backend": "الواجهة الخلفية",
+    "backendList": "Node.js, Ruby on Rails, Express",
+    "cloud": "السحابة و DevOps",
+    "cloudList": "AWS (S3, CloudFront, Lambda, CDK), CI/CD, GitHub Actions",
+    "frontend": "الواجهة الأمامية",
+    "frontendList": "React, TypeScript, Redux, Cloudscape Design System, HTML5, CSS3",
+    "title": "المجموعة التقنية"
+  }
 }

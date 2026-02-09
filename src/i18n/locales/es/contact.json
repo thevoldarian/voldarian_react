@@ -1,0 +1,17 @@
+{
+  "title": "Contáctame",
+  "intro": "Siempre estoy interesado en escuchar sobre nuevas oportunidades, colaboraciones o simplemente conectar con otros desarrolladores. ¡No dudes en contactarme!",
+  "email": {
+    "title": "Correo Electrónico"
+  },
+  "social": {
+    "title": "Redes Sociales",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "availability": {
+    "title": "Disponibilidad",
+    "status": "Abierto a oportunidades"
+  },
+  "formComingSoon": "¡Formulario de contacto próximamente! Mientras tanto, no dudes en contactarme por correo electrónico o redes sociales."
+}

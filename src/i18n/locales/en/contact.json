@@ -1,0 +1,17 @@
+{
+  "title": "Contact Me",
+  "intro": "I'm always interested in hearing about new opportunities, collaborations, or just connecting with fellow developers. Feel free to reach out!",
+  "email": {
+    "title": "Email"
+  },
+  "social": {
+    "title": "Social",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "availability": {
+    "title": "Availability",
+    "status": "Open to opportunities"
+  },
+  "formComingSoon": "Contact form coming soon! In the meantime, feel free to reach out via email or social media."
+}

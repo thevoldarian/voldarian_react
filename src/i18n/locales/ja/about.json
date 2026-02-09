@@ -1,0 +1,39 @@
+{
+  "title": "私について",
+  "summary": "Amazonで8年の経験を持つフロントエンドエンジニアII。スケーラブルでアクセシブルなWebアプリケーションの構築を専門としています。マクロツール開発からRuby on Rails、そして最終的に最新のReact/TypeScriptアプリケーションへと進化しました。優れたユーザーエクスペリエンスの創造、クリーンで保守可能なコードの記述、チームメンバーの指導に情熱を注いでいます。",
+  "skills": {
+    "title": "技術スキル",
+    "frontend": {
+      "title": "フロントエンド",
+      "list": "React 19, TypeScript, Redux, Redux-Saga, Cloudscape Design System, HTML5, CSS3, JavaScript (ES6+)"
+    },
+    "backend": {
+      "title": "バックエンド",
+      "list": "Node.js, Ruby on Rails, Express"
+    },
+    "cloud": {
+      "title": "クラウド & DevOps",
+      "list": "AWS (S3, CloudFront, Lambda, CDK), CI/CD, GitHub Actions"
+    },
+    "tools": {
+      "title": "ツール",
+      "list": "Git, Webpack, Vite, Jest, Vitest, ESLint, Prettier"
+    },
+    "i18n": {
+      "title": "国際化",
+      "list": "i18next, react-i18next (14言語対応)"
+    },
+    "methodologies": {
+      "title": "方法論",
+      "list": "アジャイル, TDD, コードレビュー, アクセシビリティ (WCAG)"
+    }
+  },
+  "experience": {
+    "title": "経験",
+    "amazon": {
+      "title": "Amazon",
+      "duration": "8年",
+      "description": "マクロツール開発からRuby on Rails、そして最終的にReactとTypeScriptを使用するフロントエンドエンジニアIIへと進化。国際化、アクセシビリティ、パフォーマンスに焦点を当て、数百万人のユーザーにサービスを提供する大規模アプリケーションを構築・保守しました。"
+    }
+  }
+}

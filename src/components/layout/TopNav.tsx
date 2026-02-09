@@ -27,7 +27,7 @@ export default function TopNav() {
   };
 
   return (
-    <div id='top-nav'>
+    <div id='top-nav' style={{ position: 'sticky', top: 0, zIndex: 1000 }}>
       <TopNavigation
         identity={{
           href: '/',

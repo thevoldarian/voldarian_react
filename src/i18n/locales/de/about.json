@@ -1,0 +1,39 @@
+{
+  "title": "Über Mich",
+  "summary": "Front-End Engineer II mit 8 Jahren Erfahrung bei Amazon, spezialisiert auf die Entwicklung skalierbarer, barrierefreier Webanwendungen. Fortschritt von der Entwicklung von Makro-Tools zu Ruby on Rails und schließlich zu modernen React/TypeScript-Anwendungen. Leidenschaftlich daran interessiert, außergewöhnliche Benutzererfahrungen zu schaffen, sauberen wartbaren Code zu schreiben und Teammitglieder zu betreuen.",
+  "skills": {
+    "title": "Technische Fähigkeiten",
+    "frontend": {
+      "title": "Frontend",
+      "list": "React 19, TypeScript, Redux, Redux-Saga, Cloudscape Design System, HTML5, CSS3, JavaScript (ES6+)"
+    },
+    "backend": {
+      "title": "Backend",
+      "list": "Node.js, Ruby on Rails, Express"
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "list": "AWS (S3, CloudFront, Lambda, CDK), CI/CD, GitHub Actions"
+    },
+    "tools": {
+      "title": "Werkzeuge",
+      "list": "Git, Webpack, Vite, Jest, Vitest, ESLint, Prettier"
+    },
+    "i18n": {
+      "title": "Internationalisierung",
+      "list": "i18next, react-i18next (14 Sprachen unterstützt)"
+    },
+    "methodologies": {
+      "title": "Methodologien",
+      "list": "Agile, TDD, Code-Review, Barrierefreiheit (WCAG)"
+    }
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "amazon": {
+      "title": "Amazon",
+      "duration": "8 Jahre",
+      "description": "Fortschritt von der Entwicklung von Makro-Tools zu Ruby on Rails und schließlich zu Front-End Engineer II mit React und TypeScript. Entwicklung und Wartung großer Anwendungen für Millionen von Benutzern mit Fokus auf Internationalisierung, Barrierefreiheit und Leistung."
+    }
+  }
+}

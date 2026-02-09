@@ -1,4 +1,25 @@
 {
-  "title": "Im Aufbau",
-  "subtitle": "Diese Website wird derzeit erstellt. Schauen Sie bald wieder vorbei!"
+  "hero": {
+    "contactMe": "Kontaktiere Mich",
+    "intro": "Erfahrener Software-Ingenieur, spezialisiert auf skalierbare, barrierefreie Webanwendungen mit modernen Technologien. Leidenschaftlich daran interessiert, außergewöhnliche Benutzererfahrungen zu schaffen und sauberen, wartbaren Code zu schreiben.",
+    "name": "Raymond Beauchamp",
+    "title": "Front-End Engineer II | 8 Jahre bei Amazon | React • TypeScript • Node.js",
+    "viewProjects": "Projekte Ansehen"
+  },
+  "links": {
+    "github": "GitHub-Profil",
+    "githubAriaLabel": "GitHub-Profil (öffnet in neuem Tab)",
+    "linkedin": "LinkedIn-Profil",
+    "linkedinAriaLabel": "LinkedIn-Profil (öffnet in neuem Tab)",
+    "title": "Verbinden"
+  },
+  "techStack": {
+    "backend": "Backend",
+    "backendList": "Node.js, Ruby on Rails, Express",
+    "cloud": "Cloud & DevOps",
+    "cloudList": "AWS (S3, CloudFront, Lambda, CDK), CI/CD, GitHub Actions",
+    "frontend": "Frontend",
+    "frontendList": "React, TypeScript, Redux, Cloudscape Design System, HTML5, CSS3",
+    "title": "Tech Stack"
+  }
 }
