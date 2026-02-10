@@ -10,31 +10,23 @@ vi.mock('react-i18next', () => ({
   }),
 }));
 
+const renderWithProvider = (component: React.ReactElement) => {
+  return render(<Provider store={store}>{component}</Provider>);
+};
+
 describe('Contact', () => {
   it('renders without crashing', () => {
-    const { container } = render(
-      <Provider store={store}>
-        <Contact />
-      </Provider>,
-    );
+    const { container } = renderWithProvider(<Contact />);
     expect(container).toBeDefined();
   });
 
   it('renders title', () => {
-    render(
-      <Provider store={store}>
-        <Contact />
-      </Provider>,
-    );
+    renderWithProvider(<Contact />);
     expect(screen.getByText('title')).toBeDefined();
   });
 
   it('renders email link', () => {
-    render(
-      <Provider store={store}>
-        <Contact />
-      </Provider>,
-    );
+    renderWithProvider(<Contact />);
     expect(screen.getByText('thevoldarian@gmail.com')).toBeDefined();
   });
 });

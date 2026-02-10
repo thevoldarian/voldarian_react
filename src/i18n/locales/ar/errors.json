@@ -1,0 +1,9 @@
+{
+  "api": {
+    "fetchDataFailed": "فشل في جلب بيانات GitHub",
+    "fetchReposFailed": "فشل في جلب مستودعات GitHub",
+    "fetchUserFailed": "فشل في جلب بيانات مستخدم GitHub",
+    "invalidUsername": "اسم المستخدم غير صالح"
+  },
+  "notFound": "404 - الصفحة غير موجودة"
+}

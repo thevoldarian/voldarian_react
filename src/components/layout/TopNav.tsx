@@ -38,13 +38,10 @@ export default function TopNav() {
             type: 'menu-dropdown',
             text: t(`language.${language}`),
             description: t('language.select'),
-            items: [
-              { id: 'en', text: t('language.en') },
-              { id: 'es', text: t('language.es') },
-              { id: 'de', text: t('language.de') },
-              { id: 'ja', text: t('language.ja') },
-              { id: 'ar', text: t('language.ar') },
-            ],
+            items: SUPPORTED_LANGUAGES.map(lang => ({
+              id: lang,
+              text: t(`language.${lang}`),
+            })),
             onItemClick: ({ detail }) => handleLanguageChange(detail.id),
           },
           {

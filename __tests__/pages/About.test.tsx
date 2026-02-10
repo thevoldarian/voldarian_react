@@ -10,22 +10,18 @@ vi.mock('react-i18next', () => ({
   }),
 }));
 
+const renderWithProvider = (component: React.ReactElement) => {
+  return render(<Provider store={store}>{component}</Provider>);
+};
+
 describe('About', () => {
   it('renders without crashing', () => {
-    const { container } = render(
-      <Provider store={store}>
-        <About />
-      </Provider>,
-    );
+    const { container } = renderWithProvider(<About />);
     expect(container).toBeDefined();
   });
 
   it('renders title', () => {
-    render(
-      <Provider store={store}>
-        <About />
-      </Provider>,
-    );
+    renderWithProvider(<About />);
     expect(screen.getByText('title')).toBeDefined();
   });
 });

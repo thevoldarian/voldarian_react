@@ -1,0 +1,44 @@
+{
+  "activity": {
+  },
+  "description": "GitHub API を使用したリアルタイムの GitHub 統計とアクティビティ メトリクス。\nこのダッシュボードは、API 統合、データ視覚化、AWS コンソール スタイルの UI パターンを示します。",
+  "load": "負荷",
+  "overview": {
+    "followers": "フォロワー",
+    "following": "続く",
+    "publicRepos": "パブリックリポジトリ",
+    "statsTitle": "GitHub の統計",
+    "totalStars": "合計スター数"
+  },
+  "profile": {
+    "bio": "バイオ",
+    "joined": "参加しました",
+    "location": "位置",
+    "name": "名前",
+    "username": "ユーザー名"
+  },
+  "repositories": {
+    "description": "説明",
+    "forks": "フォーク",
+    "language": "言語",
+    "name": "名前",
+    "noRepos": "リポジトリが見つかりません",
+    "stars": "星"
+  },
+  "tabs": {
+    "overview": "概要",
+    "profile": "プロフィール",
+    "repositories": "リポジトリ"
+  },
+  "title": "GitHub アクティビティ ダッシュボード",
+  "trySuggested": "試す：",
+  "usernameDescription": "統計を表示するには、GitHub ユーザー名を入力してください",
+  "usernameLabel": "GitHub ユーザー名",
+  "usernamePlaceholder": "GitHub ユーザー名を入力してください",
+  "validation": {
+    "usernameConsecutiveHyphens": "ユーザー名には連続したハイフンを含めることはできません",
+    "usernameInvalidFormat": "ユーザー名には英数字またはハイフンのみを含めることができ、ハイフンで開始または終了することはできません",
+    "usernameRequired": "ユーザー名は必須です",
+    "usernameTooLong": "ユーザー名は 39 文字以下である必要があります"
+  }
+}

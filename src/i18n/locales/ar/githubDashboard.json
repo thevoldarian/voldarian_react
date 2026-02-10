@@ -1,0 +1,44 @@
+{
+  "activity": {
+  },
+  "description": "إحصائيات GitHub ومقاييس النشاط في الوقت الفعلي باستخدام GitHub API. \nتوضح لوحة المعلومات هذه تكامل واجهة برمجة التطبيقات (API)، وتصور البيانات، وأنماط واجهة المستخدم بنمط وحدة تحكم AWS.",
+  "load": "حمولة",
+  "overview": {
+    "followers": "المتابعون",
+    "following": "التالي",
+    "publicRepos": "المستودعات العامة",
+    "statsTitle": "إحصائيات جيثب",
+    "totalStars": "مجموع النجوم"
+  },
+  "profile": {
+    "bio": "السيرة الذاتية",
+    "joined": "انضم",
+    "location": "موقع",
+    "name": "اسم",
+    "username": "اسم المستخدم"
+  },
+  "repositories": {
+    "description": "وصف",
+    "forks": "شوك",
+    "language": "لغة",
+    "name": "اسم",
+    "noRepos": "لم يتم العثور على مستودعات",
+    "stars": "النجوم"
+  },
+  "tabs": {
+    "overview": "ملخص",
+    "profile": "حساب تعريفي",
+    "repositories": "المستودعات"
+  },
+  "title": "لوحة معلومات نشاط جيثب",
+  "trySuggested": "يحاول:",
+  "usernameDescription": "أدخل أي اسم مستخدم لـ GitHub لعرض إحصائياته",
+  "usernameLabel": "اسم مستخدم جيثب",
+  "usernamePlaceholder": "أدخل اسم مستخدم جيثب",
+  "validation": {
+    "usernameConsecutiveHyphens": "لا يمكن أن يحتوي اسم المستخدم على واصلات متتالية",
+    "usernameInvalidFormat": "يجب أن يحتوي اسم المستخدم فقط على أحرف أبجدية رقمية أو واصلات، ولا يمكن أن يبدأ أو ينتهي بواصلة",
+    "usernameRequired": "اسم المستخدم مطلوب",
+    "usernameTooLong": "يجب أن يكون اسم المستخدم 39 حرفًا أو أقل"
+  }
+}

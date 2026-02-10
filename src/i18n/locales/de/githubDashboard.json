@@ -1,0 +1,44 @@
+{
+  "activity": {
+  },
+  "description": "Echtzeit-GitHub-Statistiken und Aktivitätsmetriken mithilfe der GitHub-API. \nDieses Dashboard demonstriert API-Integration, Datenvisualisierung und UI-Muster im AWS-Konsolenstil.",
+  "load": "Laden",
+  "overview": {
+    "followers": "Followers",
+    "following": "Nachfolgend",
+    "publicRepos": "Öffentliche Repositories",
+    "statsTitle": "GitHub-Statistiken",
+    "totalStars": "Gesamtzahl der Sterne"
+  },
+  "profile": {
+    "bio": "Bio",
+    "joined": "Beigetreten",
+    "location": "Standort",
+    "name": "Name",
+    "username": "Benutzername"
+  },
+  "repositories": {
+    "description": "Beschreibung",
+    "forks": "Gabeln",
+    "language": "Sprache",
+    "name": "Name",
+    "noRepos": "Keine Repositorys gefunden",
+    "stars": "Sterne"
+  },
+  "tabs": {
+    "overview": "Überblick",
+    "profile": "Profil",
+    "repositories": "Repositories"
+  },
+  "title": "GitHub-Aktivitäts-Dashboard",
+  "trySuggested": "Versuchen:",
+  "usernameDescription": "Geben Sie einen beliebigen GitHub-Benutzernamen ein, um deren Statistiken anzuzeigen",
+  "usernameLabel": "GitHub-Benutzername",
+  "usernamePlaceholder": "Geben Sie den GitHub-Benutzernamen ein",
+  "validation": {
+    "usernameConsecutiveHyphens": "Der Benutzername darf keine aufeinanderfolgenden Bindestriche enthalten",
+    "usernameInvalidFormat": "Der Benutzername darf nur alphanumerische Zeichen oder Bindestriche enthalten und darf nicht mit einem Bindestrich beginnen oder enden",
+    "usernameRequired": "Benutzername ist erforderlich",
+    "usernameTooLong": "Der Benutzername darf maximal 39 Zeichen lang sein"
+  }
+}

@@ -1,3 +1,3 @@
-export type Language = 'en' | 'es' | 'de' | 'ja' | 'ar';
+export const SUPPORTED_LANGUAGES = ['en', 'es', 'de', 'ja', 'ar'] as const;
 
-export const SUPPORTED_LANGUAGES: Language[] = ['en', 'es', 'de', 'ja', 'ar'];
+export type Language = (typeof SUPPORTED_LANGUAGES)[number];

@@ -6,16 +6,26 @@ import { store } from '../../../src/store';
 import AppLayout from '../../../src/components/layout/AppLayout';
 import userEvent from '@testing-library/user-event';
 
+vi.mock('react-i18next', () => ({
+  useTranslation: () => ({
+    t: (key: string) => key,
+  }),
+}));
+
+const renderWithRouter = (component: React.ReactElement) => {
+  return render(
+    <Provider store={store}>
+      <BrowserRouter>{component}</BrowserRouter>
+    </Provider>,
+  );
+};
+
 describe('AppLayout', () => {
   it('renders with children', () => {
-    const { getByText } = render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <AppLayout>
-            <div>Test Content</div>
-          </AppLayout>
-        </BrowserRouter>
-      </Provider>,
+    const { getByText } = renderWithRouter(
+      <AppLayout>
+        <div>Test Content</div>
+      </AppLayout>,
     );
     expect(getByText('Test Content')).toBeDefined();
   });
@@ -24,14 +34,10 @@ describe('AppLayout', () => {
     const user = userEvent.setup();
     const initialCollapsed = store.getState().preferences.sidebarCollapsed;
 
-    render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <AppLayout>
-            <div>Content</div>
-          </AppLayout>
-        </BrowserRouter>
-      </Provider>,
+    renderWithRouter(
+      <AppLayout>
+        <div>Content</div>
+      </AppLayout>,
     );
 
     // Sidebar state should be accessible through Redux
@@ -40,14 +46,10 @@ describe('AppLayout', () => {
 
   it('navigates on sidebar link click', async () => {
     const user = userEvent.setup();
-    render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <AppLayout>
-            <div>Content</div>
-          </AppLayout>
-        </BrowserRouter>
-      </Provider>,
+    renderWithRouter(
+      <AppLayout>
+        <div>Content</div>
+      </AppLayout>,
     );
 
     const aboutLink = screen.getByText(/navigation.about/i);

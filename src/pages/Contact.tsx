@@ -1,12 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Header, SpaceBetween, Link, Alert } from '@cloudscape-design/components';
+import { CONTACT_EMAIL, LINKEDIN_URL, GITHUB_URL } from '../constants/contact';
 
 export default function Contact() {
   const { t } = useTranslation('contact');
-
-  const emailUser = 'thevoldarian';
-  const emailDomain = 'gmail.com';
-  const email = `${emailUser}@${emailDomain}`;
 
   return (
     <SpaceBetween size='l'>
@@ -16,18 +13,18 @@ export default function Contact() {
 
           <Box>
             <Box variant='h3'>{t('email.title')}</Box>
-            <Link external href={`mailto:${email}`}>
-              {email}
+            <Link external href={`mailto:${CONTACT_EMAIL}`}>
+              {CONTACT_EMAIL}
             </Link>
           </Box>
 
           <Box>
             <Box variant='h3'>{t('social.title')}</Box>
             <SpaceBetween size='s'>
-              <Link external href='https://www.linkedin.com/in/raymond-beauchamp/'>
+              <Link external href={LINKEDIN_URL}>
                 {t('social.linkedin')}
               </Link>
-              <Link external href='https://github.com/thevoldarian'>
+              <Link external href={GITHUB_URL}>
                 {t('social.github')}
               </Link>
             </SpaceBetween>

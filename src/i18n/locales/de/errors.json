@@ -1,0 +1,9 @@
+{
+  "api": {
+    "fetchDataFailed": "GitHub-Daten konnten nicht abgerufen werden",
+    "fetchReposFailed": "GitHub-Repositorys konnten nicht abgerufen werden",
+    "fetchUserFailed": "GitHub-Benutzerdaten konnten nicht abgerufen werden",
+    "invalidUsername": "Ungültiger Benutzername"
+  },
+  "notFound": "404 – Seite nicht gefunden"
+}

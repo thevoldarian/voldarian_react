@@ -1,0 +1,42 @@
+{
+  "title": "GitHub Activity Dashboard",
+  "description": "Real-time GitHub statistics and activity metrics using the GitHub API. This dashboard demonstrates API integration, data visualization, and AWS Console-style UI patterns.",
+  "usernameLabel": "GitHub Username",
+  "usernameDescription": "Enter any GitHub username to view their statistics",
+  "usernamePlaceholder": "Enter GitHub username",
+  "load": "Load",
+  "trySuggested": "Try:",
+  "validation": {
+    "usernameRequired": "Username is required",
+    "usernameTooLong": "Username must be 39 characters or less",
+    "usernameInvalidFormat": "Username may only contain alphanumeric characters or hyphens, and cannot begin or end with a hyphen",
+    "usernameConsecutiveHyphens": "Username cannot contain consecutive hyphens"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "repositories": "Repositories",
+    "profile": "Profile"
+  },
+  "overview": {
+    "statsTitle": "GitHub Statistics",
+    "publicRepos": "Public Repositories",
+    "followers": "Followers",
+    "following": "Following",
+    "totalStars": "Total Stars"
+  },
+  "repositories": {
+    "name": "Name",
+    "description": "Description",
+    "language": "Language",
+    "stars": "Stars",
+    "forks": "Forks",
+    "noRepos": "No repositories found"
+  },
+  "profile": {
+    "username": "Username",
+    "name": "Name",
+    "bio": "Bio",
+    "location": "Location",
+    "joined": "Joined"
+  }
+}

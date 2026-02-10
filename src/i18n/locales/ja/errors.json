@@ -1,0 +1,9 @@
+{
+  "api": {
+    "fetchDataFailed": "GitHub データの取得に失敗しました",
+    "fetchReposFailed": "GitHub リポジトリの取得に失敗しました",
+    "fetchUserFailed": "GitHub ユーザーデータの取得に失敗しました",
+    "invalidUsername": "無効なユーザー名"
+  },
+  "notFound": "404 - ページが見つかりません"
+}

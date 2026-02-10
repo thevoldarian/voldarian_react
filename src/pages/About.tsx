@@ -11,32 +11,36 @@ export default function About() {
       </Container>
 
       <Container header={<Header variant='h2'>{t('skills.title')}</Header>}>
-        <ColumnLayout columns={3} variant='text-grid'>
-          <Box>
-            <Box variant='h3'>{t('skills.frontend.title')}</Box>
-            <Box variant='p'>{t('skills.frontend.list')}</Box>
-          </Box>
-          <Box>
-            <Box variant='h3'>{t('skills.backend.title')}</Box>
-            <Box variant='p'>{t('skills.backend.list')}</Box>
-          </Box>
-          <Box>
-            <Box variant='h3'>{t('skills.cloud.title')}</Box>
-            <Box variant='p'>{t('skills.cloud.list')}</Box>
-          </Box>
-          <Box>
-            <Box variant='h3'>{t('skills.tools.title')}</Box>
-            <Box variant='p'>{t('skills.tools.list')}</Box>
-          </Box>
-          <Box>
-            <Box variant='h3'>{t('skills.i18n.title')}</Box>
-            <Box variant='p'>{t('skills.i18n.list')}</Box>
-          </Box>
-          <Box>
-            <Box variant='h3'>{t('skills.methodologies.title')}</Box>
-            <Box variant='p'>{t('skills.methodologies.list')}</Box>
-          </Box>
-        </ColumnLayout>
+        <SpaceBetween size='m'>
+          <ColumnLayout columns={3} variant='text-grid'>
+            <Box>
+              <Box variant='h3'>{t('skills.frontend.title')}</Box>
+              <Box variant='p'>{t('skills.frontend.list')}</Box>
+            </Box>
+            <Box>
+              <Box variant='h3'>{t('skills.backend.title')}</Box>
+              <Box variant='p'>{t('skills.backend.list')}</Box>
+            </Box>
+            <Box>
+              <Box variant='h3'>{t('skills.cloud.title')}</Box>
+              <Box variant='p'>{t('skills.cloud.list')}</Box>
+            </Box>
+          </ColumnLayout>
+          <ColumnLayout columns={3} variant='text-grid'>
+            <Box>
+              <Box variant='h3'>{t('skills.tools.title')}</Box>
+              <Box variant='p'>{t('skills.tools.list')}</Box>
+            </Box>
+            <Box>
+              <Box variant='h3'>{t('skills.i18n.title')}</Box>
+              <Box variant='p'>{t('skills.i18n.list')}</Box>
+            </Box>
+            <Box>
+              <Box variant='h3'>{t('skills.methodologies.title')}</Box>
+              <Box variant='p'>{t('skills.methodologies.list')}</Box>
+            </Box>
+          </ColumnLayout>
+        </SpaceBetween>
       </Container>
 
       <Container header={<Header variant='h2'>{t('experience.title')}</Header>}>

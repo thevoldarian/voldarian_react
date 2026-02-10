@@ -1,0 +1,9 @@
+{
+  "notFound": "404 - Page Not Found",
+  "api": {
+    "fetchUserFailed": "Failed to fetch GitHub user data",
+    "fetchReposFailed": "Failed to fetch GitHub repositories",
+    "fetchDataFailed": "Failed to fetch GitHub data",
+    "invalidUsername": "Invalid username"
+  }
+}
