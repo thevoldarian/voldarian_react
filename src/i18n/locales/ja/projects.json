@@ -1,21 +1,21 @@
 {
-  "title": "Projects",
-  "intro": "Interactive demos showcasing technical skills and enterprise UI patterns. Each project demonstrates real-world development scenarios using modern technologies.",
-  "viewDemo": "View Demo",
-  "githubDashboard": {
-    "title": "GitHub Activity Dashboard",
-    "description": "AWS Console-style dashboard displaying real-time GitHub statistics with interactive charts and metrics. Features multi-tab interface and live data fetching."
+  "cryptoDashboard": {
+    "description": "ライブ価格、24 時間の変化、トレンド チャートを含むリアルタイムの暗号通貨市場データ。\n設定可能な間隔でダッシュボードを自動更新します。",
+    "title": "仮想通貨市場ダッシュボード"
   },
   "dataTable": {
-    "title": "Advanced Data Table",
-    "description": "Enterprise-grade data management interface with pagination, sorting, filtering, and bulk actions. Demonstrates complex table interactions and performance optimization."
+    "description": "ページネーション、並べ替え、フィルタリング、一括アクションを備えたエンタープライズ グレードのデータ管理インターフェイス。\n複雑なテーブルの相互作用とパフォーマンスの最適化を示します。",
+    "title": "高度なデータテーブル"
   },
+  "githubDashboard": {
+    "description": "インタラクティブなグラフとメトリクスを含むリアルタイムの GitHub 統計を表示する AWS コンソール スタイルのダッシュボード。\nマルチタブインターフェイスとライブデータフェッチを備えています。",
+    "title": "GitHub アクティビティ ダッシュボード"
+  },
+  "intro": "技術スキルとエンタープライズ UI パターンを紹介するインタラクティブなデモ。\n各プロジェクトでは、最新のテクノロジーを使用した現実世界の開発シナリオを示します。",
+  "title": "プロジェクト",
+  "viewDemo": "デモを見る",
   "wizard": {
-    "title": "Multi-Step Wizard",
-    "description": "Complex form workflow with Zod validation and internationalized error messages. Features step navigation, data persistence, and review before submission."
-  },
-  "cryptoDashboard": {
-    "title": "Crypto Market Dashboard",
-    "description": "Real-time cryptocurrency market data with live prices, 24h changes, and trend charts. Auto-refreshing dashboard with configurable intervals."
+    "description": "Zod 検証と国際化されたエラー メッセージを備えた複雑なフォーム ワークフロー。\nステップナビゲーション、データの永続化、送信前のレビュー機能を備えています。",
+    "title": "マルチステップウィザード"
   }
 }

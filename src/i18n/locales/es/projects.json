@@ -1,21 +1,21 @@
 {
-  "title": "Projects",
-  "intro": "Interactive demos showcasing technical skills and enterprise UI patterns. Each project demonstrates real-world development scenarios using modern technologies.",
-  "viewDemo": "View Demo",
-  "githubDashboard": {
-    "title": "GitHub Activity Dashboard",
-    "description": "AWS Console-style dashboard displaying real-time GitHub statistics with interactive charts and metrics. Features multi-tab interface and live data fetching."
+  "cryptoDashboard": {
+    "description": "Datos del mercado de criptomonedas en tiempo real con precios en vivo, cambios de 24 horas y gráficos de tendencias. \nPanel de control que se actualiza automáticamente con intervalos configurables.",
+    "title": "Panel de control del mercado criptográfico"
   },
   "dataTable": {
-    "title": "Advanced Data Table",
-    "description": "Enterprise-grade data management interface with pagination, sorting, filtering, and bulk actions. Demonstrates complex table interactions and performance optimization."
+    "description": "Interfaz de gestión de datos de nivel empresarial con paginación, clasificación, filtrado y acciones masivas. \nDemuestra interacciones de tablas complejas y optimización del rendimiento.",
+    "title": "Tabla de datos avanzada"
   },
+  "githubDashboard": {
+    "description": "Panel estilo consola de AWS que muestra estadísticas de GitHub en tiempo real con gráficos y métricas interactivos. \nCuenta con una interfaz de múltiples pestañas y recuperación de datos en vivo.",
+    "title": "Panel de actividad de GitHub"
+  },
+  "intro": "Demostraciones interactivas que muestran habilidades técnicas y patrones de interfaz de usuario empresarial. \nCada proyecto demuestra escenarios de desarrollo del mundo real utilizando tecnologías modernas.",
+  "title": "Proyectos",
+  "viewDemo": "Ver demostración",
   "wizard": {
-    "title": "Multi-Step Wizard",
-    "description": "Complex form workflow with Zod validation and internationalized error messages. Features step navigation, data persistence, and review before submission."
-  },
-  "cryptoDashboard": {
-    "title": "Crypto Market Dashboard",
-    "description": "Real-time cryptocurrency market data with live prices, 24h changes, and trend charts. Auto-refreshing dashboard with configurable intervals."
+    "description": "Flujo de trabajo de formulario complejo con validación Zod y mensajes de error internacionalizados. \nIncluye navegación por pasos, persistencia de datos y revisión antes del envío.",
+    "title": "Asistente de varios pasos"
   }
 }

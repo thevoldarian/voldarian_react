@@ -1,21 +1,21 @@
 {
-  "title": "Projects",
-  "intro": "Interactive demos showcasing technical skills and enterprise UI patterns. Each project demonstrates real-world development scenarios using modern technologies.",
-  "viewDemo": "View Demo",
-  "githubDashboard": {
-    "title": "GitHub Activity Dashboard",
-    "description": "AWS Console-style dashboard displaying real-time GitHub statistics with interactive charts and metrics. Features multi-tab interface and live data fetching."
+  "cryptoDashboard": {
+    "description": "بيانات سوق العملات المشفرة في الوقت الفعلي مع الأسعار المباشرة والتغيرات على مدار 24 ساعة ومخططات الاتجاه. \nلوحة معلومات يتم تحديثها تلقائيًا مع فترات زمنية قابلة للتكوين.",
+    "title": "لوحة تحكم سوق التشفير"
   },
   "dataTable": {
-    "title": "Advanced Data Table",
-    "description": "Enterprise-grade data management interface with pagination, sorting, filtering, and bulk actions. Demonstrates complex table interactions and performance optimization."
+    "description": "واجهة إدارة البيانات على مستوى المؤسسات مع ترقيم الصفحات والفرز والتصفية والإجراءات المجمعة. \nيوضح تفاعلات الجدول المعقدة وتحسين الأداء.",
+    "title": "جدول البيانات المتقدم"
   },
+  "githubDashboard": {
+    "description": "لوحة معلومات بنمط وحدة تحكم AWS تعرض إحصائيات GitHub في الوقت الفعلي مع مخططات ومقاييس تفاعلية. \nيتميز بواجهة متعددة علامات التبويب وجلب البيانات المباشرة.",
+    "title": "لوحة معلومات نشاط جيثب"
+  },
+  "intro": "عروض توضيحية تفاعلية تعرض المهارات التقنية وأنماط واجهة المستخدم الخاصة بالمؤسسة. \nيوضح كل مشروع سيناريوهات التطوير في العالم الحقيقي باستخدام التقنيات الحديثة.",
+  "title": "المشاريع",
+  "viewDemo": "عرض تجريبي",
   "wizard": {
-    "title": "Multi-Step Wizard",
-    "description": "Complex form workflow with Zod validation and internationalized error messages. Features step navigation, data persistence, and review before submission."
-  },
-  "cryptoDashboard": {
-    "title": "Crypto Market Dashboard",
-    "description": "Real-time cryptocurrency market data with live prices, 24h changes, and trend charts. Auto-refreshing dashboard with configurable intervals."
+    "description": "سير عمل النموذج المعقد مع التحقق من صحة Zod ورسائل الخطأ الدولية. \nيتميز بالتنقل بين الخطوات واستمرار البيانات والمراجعة قبل الإرسال.",
+    "title": "معالج متعدد الخطوات"
   }
 }
