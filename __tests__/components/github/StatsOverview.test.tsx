@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { StatsOverview } from '../../../src/components/github/StatsOverview';
 import type { GitHubUser } from '../../../src/services/githubService';
@@ -10,6 +10,14 @@ vi.mock('react-i18next', () => ({
 }));
 
 describe('StatsOverview', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.runOnlyPendingTimers();
+    vi.useRealTimers();
+  });
   const mockUserData: GitHubUser = {
     login: 'testuser',
     name: 'Test User',

@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { Profile } from '../../../src/components/github/Profile';
 
@@ -7,6 +7,14 @@ vi.mock('react-i18next', () => ({
 }));
 
 describe('Profile', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.runOnlyPendingTimers();
+    vi.useRealTimers();
+  });
   const mockUser = {
     login: 'testuser',
     name: 'Test User',

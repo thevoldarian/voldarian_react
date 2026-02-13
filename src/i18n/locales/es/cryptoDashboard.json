@@ -1,0 +1,34 @@
+{
+  "title": "Panel de Mercado Criptográfico",
+  "description": "Datos del mercado de criptografía en tiempo real con precios en vivo, cambios de 24 horas y gráficos de tendencias. Panel actualizado automáticamente con intervalos configurables.",
+  "refreshInterval": "Intervalo de Actualización",
+  "lastUpdated": "Última Actualización",
+  "manualRefresh": "Actualizar Ahora",
+  "noData": "No hay datos de criptografía disponibles. Por favor, inténtelo de nuevo.",
+  "tableHeaders": {
+    "rank": "Posición",
+    "name": "Nombre",
+    "symbol": "Símbolo",
+    "price": "Precio (USD)",
+    "change24h": "Cambio 24h %",
+    "marketCap": "Capitalización",
+    "volume": "Volumen 24h"
+  },
+  "intervals": {
+    "15s": "15 segundos",
+    "30s": "30 segundos",
+    "1m": "1 minuto",
+    "5m": "5 minutos"
+  },
+  "chart": {
+    "title": "Tendencia de Precio de {coinName}",
+    "days1": "24 Horas",
+    "days7": "7 Días",
+    "days30": "30 Días",
+    "priceLabel": "Precio (USD)"
+  },
+  "alert": {
+    "topGainer": "Ganador Superior",
+    "topLoser": "Perdedor Superior"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "addEmployee": "Mitarbeiter hinzufügen",
+  "addEmployeeModal": {
+    "add": "Mitarbeiter hinzufügen",
+    "cancel": "Stornieren",
+    "selectDepartment": "Abteilung auswählen",
+    "title": "Neuen Mitarbeiter hinzufügen"
+  },
+  "adminView": "HR-/Admin-Ansicht",
+  "columns": {
+    "department": "Abteilung",
+    "email": "E-Mail",
+    "firstName": "Vorname",
+    "hireDate": "Mietdatum",
+    "id": "AUSWEIS",
+    "lastName": "Nachname",
+    "name": "Name",
+    "phone": "Telefon",
+    "position": "Position",
+    "salary": "Gehalt"
+  },
+  "deleteSelected": "Löschen ({{count}})",
+  "demoWarning": "Demomodus: Änderungen werden nicht gespeichert und bei der Seitenaktualisierung zurückgesetzt.",
+  "exportCSV": "CSV exportieren",
+  "filters": {
+    "allDepartments": "Alle Abteilungen",
+    "selectDepartment": "Nach Abteilung filtern"
+  },
+  "loading": "Mitarbeiter werden geladen...",
+  "noEmployees": "Keine Mitarbeiter gefunden",
+  "searchPlaceholder": "Mitarbeiter suchen...",
+  "title": "Mitarbeiterdatentabelle",
+  "validation": {
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "invalidSalary": "Bitte geben Sie einen gültigen Gehaltsbetrag ein",
+    "required": "Dieses Feld ist erforderlich"
+  }
+}

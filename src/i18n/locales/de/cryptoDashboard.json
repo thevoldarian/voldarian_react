@@ -1,0 +1,34 @@
+{
+  "title": "Kryptowährungs-Markt-Dashboard",
+  "description": "Echtzeit-Kryptowährungsmarktdaten mit Live-Kursen, 24-Stunden-Änderungen und Trend-Diagrammen. Auto-aktualisierendes Dashboard mit konfigurierbaren Intervallen.",
+  "refreshInterval": "Aktualisierungsintervall",
+  "lastUpdated": "Zuletzt Aktualisiert",
+  "manualRefresh": "Jetzt Aktualisieren",
+  "noData": "Keine Kryptowährungsdaten verfügbar. Bitte versuchen Sie es später erneut.",
+  "tableHeaders": {
+    "rank": "Rang",
+    "name": "Name",
+    "symbol": "Symbol",
+    "price": "Preis (USD)",
+    "change24h": "24-Stunden-Änderung %",
+    "marketCap": "Marktkapitalisierung",
+    "volume": "24-Stunden-Volumen"
+  },
+  "intervals": {
+    "15s": "15 Sekunden",
+    "30s": "30 Sekunden",
+    "1m": "1 Minute",
+    "5m": "5 Minuten"
+  },
+  "chart": {
+    "title": "{coinName} Preisentwicklung",
+    "days1": "24 Stunden",
+    "days7": "7 Tage",
+    "days30": "30 Tage",
+    "priceLabel": "Preis (USD)"
+  },
+  "alert": {
+    "topGainer": "Größter Gewinner",
+    "topLoser": "Größter Verlierer"
+  }
+}

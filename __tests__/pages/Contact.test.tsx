@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { store } from '../../src/store';
@@ -15,6 +15,14 @@ const renderWithProvider = (component: React.ReactElement) => {
 };
 
 describe('Contact', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.runOnlyPendingTimers();
+    vi.useRealTimers();
+  });
   it('renders without crashing', () => {
     const { container } = renderWithProvider(<Contact />);
     expect(container).toBeDefined();

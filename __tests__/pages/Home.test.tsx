@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { store } from '../../src/store';
@@ -11,6 +11,14 @@ vi.mock('react-i18next', () => ({
 }));
 
 describe('Home', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.runOnlyPendingTimers();
+    vi.useRealTimers();
+  });
   it('renders without crashing', () => {
     const { container } = render(
       <Provider store={store}>

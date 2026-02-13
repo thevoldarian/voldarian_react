@@ -1,6 +1,5 @@
 {
-  "activity": {
-  },
+  "activity": {},
   "description": "Echtzeit-GitHub-Statistiken und Aktivitätsmetriken mithilfe der GitHub-API. \nDieses Dashboard demonstriert API-Integration, Datenvisualisierung und UI-Muster im AWS-Konsolenstil.",
   "load": "Laden",
   "overview": {

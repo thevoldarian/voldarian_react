@@ -3,7 +3,10 @@
     "fetchDataFailed": "فشل في جلب بيانات GitHub",
     "fetchReposFailed": "فشل في جلب مستودعات GitHub",
     "fetchUserFailed": "فشل في جلب بيانات مستخدم GitHub",
-    "invalidUsername": "اسم المستخدم غير صالح"
+    "invalidUsername": "اسم المستخدم غير صالح",
+    "fetchCryptoPricesFailed": "فشل في جلب أسعار العملات المشفرة. يرجى المحاولة مرة أخرى.",
+    "fetchPriceHistoryFailed": "فشل في تحميل سجل الأسعار. يرجى المحاولة مرة أخرى.",
+    "invalidCoinId": "معرف العملة المشفرة غير صالح."
   },
   "notFound": "404 - الصفحة غير موجودة"
 }

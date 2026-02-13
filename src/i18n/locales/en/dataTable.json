@@ -1,0 +1,38 @@
+{
+  "title": "Employee Data Table",
+  "demoWarning": "Demo Mode: Changes are not saved and will reset on page refresh.",
+  "adminView": "HR/Admin View",
+  "addEmployee": "Add Employee",
+  "deleteSelected": "Delete ({{count}})",
+  "exportCSV": "Export CSV",
+  "loading": "Loading employees...",
+  "noEmployees": "No employees found",
+  "searchPlaceholder": "Search employees...",
+  "columns": {
+    "id": "ID",
+    "name": "Name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "department": "Department",
+    "position": "Position",
+    "hireDate": "Hire Date",
+    "salary": "Salary"
+  },
+  "addEmployeeModal": {
+    "title": "Add New Employee",
+    "cancel": "Cancel",
+    "add": "Add Employee",
+    "selectDepartment": "Select department"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidSalary": "Please enter a valid salary amount"
+  },
+  "filters": {
+    "allDepartments": "All Departments",
+    "selectDepartment": "Filter by department"
+  }
+}

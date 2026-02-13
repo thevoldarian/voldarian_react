@@ -1,0 +1,38 @@
+{
+  "addEmployee": "Agregar empleado",
+  "addEmployeeModal": {
+    "add": "Agregar empleado",
+    "cancel": "Cancelar",
+    "selectDepartment": "Seleccionar departamento",
+    "title": "Agregar nuevo empleado"
+  },
+  "adminView": "Vista de recursos humanos/administrador",
+  "columns": {
+    "department": "Departamento",
+    "email": "Correo electrónico",
+    "firstName": "Nombre de pila",
+    "hireDate": "Fecha de contratación",
+    "id": "IDENTIFICACIÓN",
+    "lastName": "Apellido",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "position": "Posición",
+    "salary": "Salario"
+  },
+  "deleteSelected": "Eliminar ({{count}})",
+  "demoWarning": "Modo de demostración: los cambios no se guardan y se restablecerán al actualizar la página.",
+  "exportCSV": "Exportar CSV",
+  "filters": {
+    "allDepartments": "Todos los departamentos",
+    "selectDepartment": "Filtrar por departamento"
+  },
+  "loading": "Cargando empleados...",
+  "noEmployees": "No se encontraron empleados",
+  "searchPlaceholder": "Buscar empleados...",
+  "title": "Tabla de datos de empleados",
+  "validation": {
+    "invalidEmail": "Por favor, introduce una dirección de correo electrónico válida",
+    "invalidSalary": "Por favor ingrese un monto de salario válido",
+    "required": "Este campo es obligatorio"
+  }
+}

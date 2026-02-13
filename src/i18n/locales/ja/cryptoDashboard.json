@@ -1,0 +1,34 @@
+{
+  "title": "暗号通貨市場ダッシュボード",
+  "description": "ライブ価格、24時間の変化、トレンドチャート付きのリアルタイム暗号通貨市場データ。設定可能な間隔での自動更新ダッシュボード。",
+  "refreshInterval": "更新間隔",
+  "lastUpdated": "最終更新",
+  "manualRefresh": "今すぐ更新",
+  "noData": "暗号通貨データが利用できません。もう一度お試しください。",
+  "tableHeaders": {
+    "rank": "ランク",
+    "name": "名前",
+    "symbol": "シンボル",
+    "price": "価格 (USD)",
+    "change24h": "24時間の変化 %",
+    "marketCap": "時価総額",
+    "volume": "24時間の取引量"
+  },
+  "intervals": {
+    "15s": "15秒",
+    "30s": "30秒",
+    "1m": "1分",
+    "5m": "5分"
+  },
+  "chart": {
+    "title": "{coinName}の価格トレンド",
+    "days1": "24時間",
+    "days7": "7日間",
+    "days30": "30日間",
+    "priceLabel": "価格 (USD)"
+  },
+  "alert": {
+    "topGainer": "最大上昇",
+    "topLoser": "最大下落"
+  }
+}

@@ -1,7 +1,5 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render } from '@testing-library/react';
-import { Provider } from 'react-redux';
-import { store } from '../src/store';
+import { describe, it, expect, vi } from 'vitest';
+import { render } from './utils/test-utils';
 import App from '../src/App';
 
 vi.mock('react-i18next', () => ({
@@ -35,16 +33,8 @@ vi.mock('../src/hooks/useRepositoryPagination', () => ({
 }));
 
 describe('App', () => {
-  beforeEach(() => {
-    vi.clearAllMocks();
-  });
-
   it('renders without crashing', () => {
-    const { container } = render(
-      <Provider store={store}>
-        <App />
-      </Provider>,
-    );
+    const { container } = render(<App />);
     expect(container).toBeDefined();
   });
 });

@@ -1,6 +1,5 @@
 {
-  "activity": {
-  },
+  "activity": {},
   "description": "Estadísticas de GitHub y métricas de actividad en tiempo real utilizando la API de GitHub. \nEste panel demuestra la integración de API, la visualización de datos y los patrones de interfaz de usuario estilo consola de AWS.",
   "load": "Carga",
   "overview": {

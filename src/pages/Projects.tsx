@@ -17,7 +17,7 @@ export default function Projects() {
       id: 'github-dashboard',
       titleKey: 'githubDashboard.title',
       descriptionKey: 'githubDashboard.description',
-      technologies: ['React', 'TypeScript', 'Redux', 'GitHub API', 'Charts'],
+      technologies: ['React', 'TypeScript', 'Redux', 'GitHub API'],
       route: '/projects/github-dashboard',
     },
     {

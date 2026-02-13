@@ -2,16 +2,18 @@ import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import preferencesReducer from './slices/preferencesSlice';
+import cryptoReducer from './cryptoSlice';
 
 const persistConfig = {
   key: 'root',
   version: 1,
   storage,
-  whitelist: ['preferences'], // Only persist preferences
+  whitelist: ['preferences', 'crypto'], // Persist preferences and crypto state
 };
 
 const rootReducer = combineReducers({
   preferences: preferencesReducer,
+  crypto: cryptoReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

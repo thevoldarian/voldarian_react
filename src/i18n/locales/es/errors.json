@@ -3,7 +3,10 @@
     "fetchDataFailed": "No se pudieron recuperar los datos de GitHub",
     "fetchReposFailed": "No se pudieron recuperar los repositorios de GitHub",
     "fetchUserFailed": "No se pudieron recuperar los datos del usuario de GitHub",
-    "invalidUsername": "Nombre de usuario no válido"
+    "invalidUsername": "Nombre de usuario no válido",
+    "fetchCryptoPricesFailed": "No se pudieron recuperar los precios de las criptografías. Por favor, inténtelo de nuevo.",
+    "fetchPriceHistoryFailed": "No se pudo cargar el historial de precios. Por favor, inténtelo de nuevo.",
+    "invalidCoinId": "ID de criptografía inválido."
   },
   "notFound": "404 - Página no encontrada"
 }

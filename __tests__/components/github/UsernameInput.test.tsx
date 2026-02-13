@@ -1,4 +1,5 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { act } from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { UsernameInput } from '../../../src/components/github/UsernameInput';
@@ -24,8 +25,9 @@ describe('UsernameInput', () => {
     render(<UsernameInput onSubmit={mockOnSubmit} loading={false} suggestedUsers={[]} defaultUsername='testuser' />);
 
     const button = screen.getByText('load');
-    await user.click(button);
-
+    await act(async () => {
+      await user.click(button);
+    });
     expect(mockOnSubmit).toHaveBeenCalled();
   });
 
@@ -41,8 +43,9 @@ describe('UsernameInput', () => {
     const user = userEvent.setup();
     const mockOnSubmit = vi.fn();
     render(<UsernameInput onSubmit={mockOnSubmit} loading={false} suggestedUsers={['user1']} />);
-
-    await user.click(screen.getByText('user1'));
+    await act(async () => {
+      await user.click(screen.getByText('user1'));
+    });
     expect(mockOnSubmit).toHaveBeenCalledWith('user1');
   });
 
@@ -52,9 +55,10 @@ describe('UsernameInput', () => {
     render(<UsernameInput onSubmit={mockOnSubmit} loading={false} suggestedUsers={[]} />);
 
     const input = screen.getByPlaceholderText('usernamePlaceholder');
-    await user.clear(input);
-    await user.click(screen.getByText('load'));
-
+    await act(async () => {
+      await user.clear(input);
+      await user.click(screen.getByText('load'));
+    });
     expect(mockOnSubmit).not.toHaveBeenCalled();
   });
 
@@ -64,8 +68,9 @@ describe('UsernameInput', () => {
     render(<UsernameInput onSubmit={mockOnSubmit} loading={false} suggestedUsers={[]} defaultUsername='testuser' />);
 
     const input = screen.getByPlaceholderText('usernamePlaceholder');
-    await user.type(input, '{Enter}');
-
+    await act(async () => {
+      await user.type(input, '{Enter}');
+    });
     expect(mockOnSubmit).toHaveBeenCalled();
   });
 
@@ -75,8 +80,9 @@ describe('UsernameInput', () => {
     render(<UsernameInput onSubmit={mockOnSubmit} loading={false} suggestedUsers={[]} defaultUsername='testuser' />);
 
     const input = screen.getByPlaceholderText('usernamePlaceholder');
-    await user.type(input, 'a');
-
+    await act(async () => {
+      await user.type(input, 'a');
+    });
     expect(mockOnSubmit).not.toHaveBeenCalled();
   });
 });

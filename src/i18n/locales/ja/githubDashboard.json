@@ -1,6 +1,5 @@
 {
-  "activity": {
-  },
+  "activity": {},
   "description": "GitHub API を使用したリアルタイムの GitHub 統計とアクティビティ メトリクス。\nこのダッシュボードは、API 統合、データ視覚化、AWS コンソール スタイルの UI パターンを示します。",
   "load": "負荷",
   "overview": {

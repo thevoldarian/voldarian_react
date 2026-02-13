@@ -1,0 +1,114 @@
+{
+  "employees": [
+    {
+      "id": "EMP001",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@company.com",
+      "phone": "555-123-4567",
+      "department": "Engineering",
+      "position": "Senior Developer",
+      "hireDate": "2020-01-15",
+      "salary": 95000
+    },
+    {
+      "id": "EMP002",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@company.com",
+      "phone": "555-234-5678",
+      "department": "Marketing",
+      "position": "Marketing Manager",
+      "hireDate": "2019-03-22",
+      "salary": 85000
+    },
+    {
+      "id": "EMP003",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "email": "michael.johnson@company.com",
+      "phone": "555-345-6789",
+      "department": "Engineering",
+      "position": "Frontend Developer",
+      "hireDate": "2021-06-10",
+      "salary": 78000
+    },
+    {
+      "id": "EMP004",
+      "firstName": "Emily",
+      "lastName": "Brown",
+      "email": "emily.brown@company.com",
+      "phone": "555-456-7890",
+      "department": "HR",
+      "position": "HR Director",
+      "hireDate": "2018-11-05",
+      "salary": 92000
+    },
+    {
+      "id": "EMP005",
+      "firstName": "David",
+      "lastName": "Wilson",
+      "email": "david.wilson@company.com",
+      "phone": "555-567-8901",
+      "department": "Sales",
+      "position": "Sales Representative",
+      "hireDate": "2022-02-14",
+      "salary": 65000
+    },
+    {
+      "id": "EMP006",
+      "firstName": "Sarah",
+      "lastName": "Martinez",
+      "email": "sarah.martinez@company.com",
+      "phone": "555-678-9012",
+      "department": "Engineering",
+      "position": "DevOps Engineer",
+      "hireDate": "2020-09-01",
+      "salary": 88000
+    },
+    {
+      "id": "EMP007",
+      "firstName": "Robert",
+      "lastName": "Garcia",
+      "email": "robert.garcia@company.com",
+      "phone": "555-789-0123",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "hireDate": "2021-04-18",
+      "salary": 72000
+    },
+    {
+      "id": "EMP008",
+      "firstName": "Lisa",
+      "lastName": "Anderson",
+      "email": "lisa.anderson@company.com",
+      "phone": "555-890-1234",
+      "department": "Marketing",
+      "position": "Content Strategist",
+      "hireDate": "2022-07-25",
+      "salary": 68000
+    },
+    {
+      "id": "EMP009",
+      "firstName": "James",
+      "lastName": "Taylor",
+      "email": "james.taylor@company.com",
+      "phone": "555-901-2345",
+      "department": "Engineering",
+      "position": "Backend Developer",
+      "hireDate": "2019-12-03",
+      "salary": 82000
+    },
+    {
+      "id": "EMP010",
+      "firstName": "Maria",
+      "lastName": "Rodriguez",
+      "email": "maria.rodriguez@company.com",
+      "phone": "555-012-3456",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "hireDate": "2018-05-20",
+      "salary": 98000
+    }
+  ]
+}

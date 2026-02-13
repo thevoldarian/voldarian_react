@@ -1,5 +1,6 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
+import { act } from 'react';
 import { Provider } from 'react-redux';
 import { store } from '../../../src/store';
 import TopNav from '../../../src/components/layout/TopNav';
@@ -19,9 +20,7 @@ const renderWithProvider = (component: React.ReactElement) => {
 };
 
 describe('TopNav', () => {
-  beforeEach(() => {
-    vi.clearAllMocks();
-  });
+
   it('renders without crashing', () => {
     const { container } = renderWithProvider(<TopNav />);
     expect(container).toBeDefined();
@@ -37,8 +36,9 @@ describe('TopNav', () => {
     renderWithProvider(<TopNav />);
 
     const themeButton = screen.getByRole('button', { name: /theme.light/i });
-    await user.click(themeButton);
-
+    await act(async () => {
+      await user.click(themeButton);
+    });
     expect(store.getState().preferences.theme).toBe('dark');
   });
 
@@ -47,8 +47,9 @@ describe('TopNav', () => {
     renderWithProvider(<TopNav />);
 
     const darkButton = screen.getByRole('button', { name: /theme.dark/i });
-    await user.click(darkButton);
-
+    await act(async () => {
+      await user.click(darkButton);
+    });
     expect(store.getState().preferences.theme).toBe('light');
   });
 
@@ -62,11 +63,13 @@ describe('TopNav', () => {
     renderWithProvider(<TopNav />);
 
     const languageButton = screen.getByRole('button', { name: /language.en/i });
-    await user.click(languageButton);
-
+    await act(async () => {
+      await user.click(languageButton);
+    });
     const spanishOption = screen.getByText(/language.es/i);
-    await user.click(spanishOption);
-
+    await act(async () => {
+      await user.click(spanishOption);
+    });
     expect(store.getState().preferences.language).toBe('es');
   });
 

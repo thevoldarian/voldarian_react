@@ -3,7 +3,10 @@
     "fetchDataFailed": "GitHub-Daten konnten nicht abgerufen werden",
     "fetchReposFailed": "GitHub-Repositorys konnten nicht abgerufen werden",
     "fetchUserFailed": "GitHub-Benutzerdaten konnten nicht abgerufen werden",
-    "invalidUsername": "Ungültiger Benutzername"
+    "invalidUsername": "Ungültiger Benutzername",
+    "fetchCryptoPricesFailed": "Kryptowährungspreise konnten nicht abgerufen werden. Bitte versuchen Sie es später erneut.",
+    "fetchPriceHistoryFailed": "Kursverlauf konnte nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "invalidCoinId": "Ungültige Kryptowährungs-ID."
   },
   "notFound": "404 – Seite nicht gefunden"
 }

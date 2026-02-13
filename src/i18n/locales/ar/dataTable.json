@@ -1,0 +1,38 @@
+{
+  "addEmployee": "إضافة موظف",
+  "addEmployeeModal": {
+    "add": "إضافة موظف",
+    "cancel": "يلغي",
+    "selectDepartment": "اختر القسم",
+    "title": "إضافة موظف جديد"
+  },
+  "adminView": "عرض الموارد البشرية/الإدارية",
+  "columns": {
+    "department": "قسم",
+    "email": "بريد إلكتروني",
+    "firstName": "الاسم الأول",
+    "hireDate": "تاريخ الاستئجار",
+    "id": "بطاقة تعريف",
+    "lastName": "اسم العائلة",
+    "name": "اسم",
+    "phone": "هاتف",
+    "position": "موضع",
+    "salary": "مرتب"
+  },
+  "deleteSelected": "حذف ({{عدد}})",
+  "demoWarning": "الوضع التجريبي: لا يتم حفظ التغييرات وسيتم إعادة تعيينها عند تحديث الصفحة.",
+  "exportCSV": "تصدير CSV",
+  "filters": {
+    "allDepartments": "جميع الأقسام",
+    "selectDepartment": "تصفية حسب القسم"
+  },
+  "loading": "جارٍ تحميل الموظفين...",
+  "noEmployees": "لم يتم العثور على موظفين",
+  "searchPlaceholder": "البحث عن الموظفين...",
+  "title": "جدول بيانات الموظف",
+  "validation": {
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "invalidSalary": "الرجاء إدخال مبلغ صالح للراتب",
+    "required": "هذه الخانة مطلوبه"
+  }
+}

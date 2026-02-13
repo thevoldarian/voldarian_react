@@ -1,4 +1,5 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { act } from 'react';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
@@ -31,9 +32,7 @@ describe('AppLayout', () => {
   });
 
   it('toggles sidebar on navigation change', async () => {
-    const user = userEvent.setup();
     const initialCollapsed = store.getState().preferences.sidebarCollapsed;
-
     renderWithRouter(
       <AppLayout>
         <div>Content</div>
@@ -53,8 +52,9 @@ describe('AppLayout', () => {
     );
 
     const aboutLink = screen.getByText(/navigation.about/i);
-    await user.click(aboutLink);
-
+    await act(async () => {
+      await user.click(aboutLink);
+    });
     expect(window.location.pathname).toBe('/about');
   });
 });

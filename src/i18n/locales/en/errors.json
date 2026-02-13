@@ -4,6 +4,9 @@
     "fetchUserFailed": "Failed to fetch GitHub user data",
     "fetchReposFailed": "Failed to fetch GitHub repositories",
     "fetchDataFailed": "Failed to fetch GitHub data",
-    "invalidUsername": "Invalid username"
+    "invalidUsername": "Invalid username",
+    "fetchCryptoPricesFailed": "Failed to fetch cryptocurrency prices. Please try again.",
+    "fetchPriceHistoryFailed": "Failed to load price history. Please try again.",
+    "invalidCoinId": "Invalid cryptocurrency ID."
   }
 }

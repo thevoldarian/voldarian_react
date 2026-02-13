@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import Projects from '../../src/pages/Projects';
 
@@ -7,6 +7,14 @@ vi.mock('react-i18next', () => ({
 }));
 
 describe('Projects', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.runOnlyPendingTimers();
+    vi.useRealTimers();
+  });
   it('renders projects page with title', () => {
     render(<Projects />);
     expect(screen.getByText('title')).toBeDefined();

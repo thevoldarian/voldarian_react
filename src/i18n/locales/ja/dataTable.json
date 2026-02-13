@@ -1,0 +1,38 @@
+{
+  "addEmployee": "従業員を追加",
+  "addEmployeeModal": {
+    "add": "従業員を追加",
+    "cancel": "キャンセル",
+    "selectDepartment": "部門を選択してください",
+    "title": "新しい従業員を追加"
+  },
+  "adminView": "人事/管理者ビュー",
+  "columns": {
+    "department": "部門",
+    "email": "電子メール",
+    "firstName": "ファーストネーム",
+    "hireDate": "レンタル日",
+    "id": "ID",
+    "lastName": "苗字",
+    "name": "名前",
+    "phone": "電話",
+    "position": "位置",
+    "salary": "給料"
+  },
+  "deleteSelected": "削除 ({{count}})",
+  "demoWarning": "デモ モード: 変更は保存されず、ページを更新するとリセットされます。",
+  "exportCSV": "CSVのエクスポート",
+  "filters": {
+    "allDepartments": "すべての部門",
+    "selectDepartment": "部門でフィルタリングする"
+  },
+  "loading": "従業員をロード中...",
+  "noEmployees": "従業員が見つかりませんでした",
+  "searchPlaceholder": "従業員を検索...",
+  "title": "従業員データテーブル",
+  "validation": {
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "invalidSalary": "有効な給与額を入力してください",
+    "required": "この項目は必須です"
+  }
+}

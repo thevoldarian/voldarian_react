@@ -3,7 +3,10 @@
     "fetchDataFailed": "GitHub データの取得に失敗しました",
     "fetchReposFailed": "GitHub リポジトリの取得に失敗しました",
     "fetchUserFailed": "GitHub ユーザーデータの取得に失敗しました",
-    "invalidUsername": "無効なユーザー名"
+    "invalidUsername": "無効なユーザー名",
+    "fetchCryptoPricesFailed": "暗号通貨の価格を取得できません。もう一度お試しください。",
+    "fetchPriceHistoryFailed": "価格履歴をロードできません。もう一度お試しください。",
+    "invalidCoinId": "無効な暗号通貨ID。"
   },
   "notFound": "404 - ページが見つかりません"
 }

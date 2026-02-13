@@ -8,6 +8,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import GitHubDashboard from './pages/projects/GitHubDashboard';
+import DataTable from './pages/projects/DataTable';
+import CryptoDashboard from './pages/projects/CryptoDashboard';
 import { Box } from '@cloudscape-design/components';
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/projects/github-dashboard' element={<GitHubDashboard />} />
+          <Route path='/projects/data-table' element={<DataTable />} />
+          <Route path='/projects/crypto-dashboard' element={<CryptoDashboard />} />
           <Route path='/contact' element={<Contact />} />
           <Route
             path='*'
